@@ -1,0 +1,655 @@
+@media screen and (max-width:1024px) {
+    nav ul li a {
+        font-size: 18px;
+    }
+    /* Sec1 start here   */
+
+    .sec1,.sec2{
+        padding: 20px 0;
+        margin-bottom: 10px;
+    }
+    .content_form span{
+        font-size: 25px;
+    }
+
+    /* Sec1 start here */
+    /* Sec2 end here */
+
+    .card-text h2{
+        font-size: 22px;
+    }
+    .card-text p{
+        font-size: 17px;
+    }
+
+    /* Sec2 end  here */
+    /* Sec3 start here */
+
+    .sec3 center h2{
+        font-size: 40px;
+    }
+
+    .main-parent{
+        grid-template-columns: 100%;
+    }
+
+    .left-img{
+        text-align: center;
+    }
+
+    .time-line{
+        width: 80%;
+        margin: auto;
+    }
+
+    .instruction h2{
+        font-size: 22px;
+    }
+
+    .instruction p{
+        font-size: 18px;
+    }
+
+    /* Sec3 end here */
+    /* Sec4 start here */
+
+    .sec4 center h2 {
+        font-size: 40px;
+    }
+
+    .learner_group {
+        width: 80%;
+        row-gap: 50px;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+    /* Sec4 end here */
+    /* sec5 start here  */
+    
+    .sec5_content_parent {
+        width: 80%;
+        grid-template-columns: 100%;
+    }
+
+    .book-test-box h2 {
+        font-size: 22px;
+    }
+
+    .lines li{
+        font-size: 16px;
+    }
+
+    .book-test-box::before {
+        width: 120px;
+        height: 120px;
+        font-size: 35px;
+    }
+
+    .book-test-box a{
+        font-size: 18px;
+    }
+
+    /* sec5 end here  */
+    /* sec6 start here  */
+    
+    .sec6 center h2{
+        font-size: 40px;
+    }
+    
+    .sec6-content-parent {
+        width: 80%;
+        margin: auto;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lesson-cards {
+        width: 400px;
+    }
+
+    .parent-cards-right-cards {
+        margin-bottom: 20px;
+    }
+
+    .left-content-cards {
+        width: 100%;
+        height: auto;
+        padding: 0px 0;
+        margin-top: 20px;
+    }
+
+    .right-content-cards {
+        padding: 15px 0;
+    }
+    
+    /* sec6 end here  */
+    /* sec7 START here  */
+
+    .sec7 center h2{
+        font-size: 40px;
+    } 
+
+    .parent_voucher {
+        width: 80%;
+        row-gap: 20px;
+        grid-template-columns: 100%;
+    }
+    .img-voucher{
+        text-align: center;
+    }
+
+
+    /* sec7 end here  */
+    /* sec8 start here  */
+
+    .parent-sec8-cards {
+        width: 80%;
+        padding: 35px 0;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        row-gap: 25px;
+        justify-content: space-around;
+        align-items: baseline;
+        margin: auto;
+        }
+
+        .parent-sec8-img img {
+            width: 25%;
+            height: auto;
+        }
+
+    /* sec8 end here  */
+    /* sec9 start here  */
+
+    .sec9 center h2 {
+        font-size: 40px;
+    }
+
+    /* sec9 end here  */
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .logo{
+        width: 10%;
+    }
+
+    nav ul li a,.log-btn a {
+        font-size: 16px;
+        
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    nav ul li{
+        padding-top: 20px;
+    }
+    /* CSS for the Slider */
+        .slider {
+            width: 230px;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #82C5F8;
+            color: white !important;
+            height: 100%;
+            padding: 0px 30px;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .slider_coming {
+            transform: translateX(0);
+        }
+        
+        .menu-bar {
+            cursor: pointer;
+        }
+        
+
+    .menu-bar{
+        display: block;
+        font-size: 22px;
+    }
+
+    
+
+    .log-btn a{
+    position: absolute;
+    top: 16px;
+    right: 100px;
+      padding: 5px 10px;  
+    } 
+
+    /* Sec1 start here  */
+
+    .content_form{
+        text-align: center;
+    }
+
+    .form_card{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .banner-img img{
+        margin-top: 20px;
+    }
+    .content_form span{
+        font-size: 35px;
+    }
+
+    .parent_banner{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 0px;
+    }
+
+     /* Sec2 end here */
+
+     .card-text h2{
+        font-size: 18px;
+    }
+    .card-text p{
+        font-size: 15px;
+    }
+
+    /* Sec2 end  here */
+     /* Sec3 start here */
+
+     .sec3 center h2{
+        font-size: 35px;
+    }
+    .sec3 center p{
+        font-size: 16px;
+    }
+
+    .instruction h2{
+        font-size: 20px;
+    }
+
+    .instruction p{
+        font-size: 15px;
+    }
+    .time-line a{
+        font-size: 14px;
+    } 
+
+    /* Sec3 end here */
+      /* Sec4 start here */
+
+      .sec4 center h2 {
+        font-size: 35px;
+    }
+
+    .sec4 center p{
+        font-size: 16px;
+    }
+
+    .testimonial-card{
+        max-width: 100%;
+    }
+
+    .learner_group {
+        width: 80%;
+        row-gap: 30px;
+        grid-template-columns: 100%;
+    }
+
+    /* Sec4 end here */
+    /* sec5 start here  */
+
+    .book-test-box::before {
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+    }
+
+    .book-test-box a{
+        font-size: 16px;
+    }
+
+    /* sec5 end here  */
+     /* sec6 start here  */
+    
+     .sec6 center h2{
+        font-size: 35px;
+    }
+    
+     .sec6 center p{
+        font-size: 16px;
+    }
+    
+    .lesson-cards {
+        width: 300px;
+    }
+
+    .content-text h2, .text-of-right-content h2{
+        font-size: 22px;
+    }
+
+    .content-text p ,.text-of-right-content p{
+        font-size: 15px;
+    }
+
+    .book-driving{
+        font-size: 16px;
+        padding: 10px 15px;
+    }    
+    .parent-cards-right-cards {
+        margin-bottom: 20px;
+    }
+
+    .left-content-cards {
+        width: 100%;
+        height: auto;
+        padding: 0px 0;
+        margin-top: 20px;
+    }
+
+    .right-content-cards {
+        padding: 15px 0;
+    }
+    .sec7 center h2{
+        font-size: 35px;
+    } 
+
+    .parent_voucher {
+        width: 80%;
+        row-gap: 20px;
+        grid-template-columns: 100%;
+    }
+    .img-voucher{
+        text-align: center;
+    }
+
+    .text-card-voucher h2{
+        font-size: 22px;
+    }
+    .text-card-voucher p {
+        font-size: 15px;
+
+    }
+    .text-card-voucher a {
+        font-size: 16px ;
+        padding: 10px 15px;
+    }
+
+    /* sec7 end here  */
+    /* sec8 start here  */
+    .text-sec8 h2{
+        font-size: 22px;
+    }
+    .text-sec8 p{
+        font-size: 16px;
+    }
+
+    .parent-sec8-cards {
+        width: 80%;
+        padding: 35px 0;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        row-gap: 25px;
+        justify-content: space-around;
+        align-items: baseline;
+        margin: auto;
+        }
+
+        .parent-sec8-img img {
+            width: 25%;
+            height: auto;
+        }
+
+    /* sec8 end here  */
+    /* sec9 start here  */
+    .sec9 center h2{
+        font-size: 35px;
+    }
+    .faq-question{
+        font-size: 16px;
+    }
+    .faq-answer{
+        font-size: 14px;
+    }
+
+    .faq-more{
+        font-size: 14px;
+        padding: 13px;
+    }
+
+    /* sec9 end here  */
+    /* sec10 start here  */
+    .section-title {
+        font-size: 35px;
+    }
+    .more-blogs-btn{
+        font-size: 14px !important;
+        padding: 12px;
+        margin-top: 0px;
+    }
+    .blog-card{
+        width: 100%;
+        height: auto;
+    }
+    .blogs-container{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 20px;
+    }
+    /* sec10 end here  */
+    /* footer start here  */
+    .footer-logo h1{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .contact-info{
+        margin-bottom: 50px;
+    }
+    .footer-container{
+        display: grid;
+    }
+
+}
+
+
+@media screen and (max-width:550px) {
+    /* navbar  */
+    .logo{
+            width: 15%;
+    }
+    /* sec1  */
+    .content_form span{
+        font-size:30px ;
+    }
+    .log-btn a {
+        position: absolute;
+        top: 16px;
+        right: 80px;
+        padding: 5px 10px;
+    }
+    .content_form h2{
+        font-size:35px ;
+    }
+    /* sec2  */
+    .main_detail{
+        grid-template-columns: 100%;
+        grid-template-rows: 28% 28% 28% 28%;
+        row-gap: 0px;
+        margin-bottom: 40px;
+    }
+
+    /* sec3  */
+    .sec3 center h2 {
+        font-size: 30px;
+    }
+    .sec3 center p{
+        font-size: 14px;
+    }
+    .left-img img{
+        width: 85%;
+    }
+    .instruction h2{
+        font-size: 17px;
+    }
+    .instruction p{
+        font-size: 14px;
+    }
+    .time-line a{
+        font-size: 12px;
+    }
+    /* sec4  */
+    .sec4 center h2{
+        font-size: 30px;
+    }
+    .sec4 center p{
+        font-size: 14px;
+    }
+    .testimonial-card::before {
+        content: '“';
+        font-size: 140px;
+        color: orange;
+        position: absolute;
+        top: 0%;
+        left: 3%;
+    }
+    .testimonial-card p{
+        font-size: 14px;
+    }
+    /* sec5  */
+    .book-test-box h2{
+        font-size: 18px;
+    }
+    .lines li{
+        font-size: 14px;
+    }
+    .book-test-box a{
+        font-size: 14px;
+    }
+    /* sec6  */
+    .sec6 center h2{
+        font-size: 30px;
+    }
+    .sec6 center p{
+        font-size: 16px;
+    }
+    .parent-cards{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+    .lesson-cards{
+        width: 100%;
+    }
+    .content-text h2{
+        font-size: 18px;
+    }
+    .content-text p{
+        font-size: 15px;
+    }
+
+    .text-of-right-content h2{
+        font-size: 18px;
+    }
+    .text-of-right-content p{
+        font-size: 15px;
+    }
+    .book-driving a{
+        font-size: 14px;
+    }
+    /* sec7  */
+    .sec7 center h2{
+        font-size: 30px;
+    }
+    .text-card-voucher h2{
+        font-size: 20px;
+    }
+    .text-card-voucher p{
+        font-size: 15px;
+    }
+    .text-card-voucher a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    /* sec6=8  */
+    .sec8 center h2{
+        font-size: 30px;
+    }
+    .sec8 center p{
+        font-size: 15px;
+    }
+    .parent-sec8-cards {
+        grid-template-columns: 100%;
+    }
+    .sec8-cards {
+        width: 100%;
+        height: auto;
+        padding: 15px 10px;
+    }
+    .parent-sec8-img img{
+        width: 20%;
+    }
+
+    /* sec9  */
+    .sec9 center h2{
+        font-size: 27px;
+    }
+    .faq-question{
+        font-size: 14px;
+    }
+    .faq-section{
+        width: 90%;
+    }
+    .faq-more {
+        font-size: 12px;
+        padding: 11px;
+    }
+    /* sec 10  */
+    .section-title {
+        font-size: 30px;
+    }
+    .more-blogs-btn {
+        font-size: 9px !important;
+        padding: 8px;
+        margin-top: 0px;
+    }
+    .blogs-container {
+        display: grid;
+        grid-template-columns: 95%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .blog-content h3{
+        font-size: 20px;
+    }
+    .blog-content p{
+        font-size: 15px;
+    }
+
+
+
+
+
+
+}
